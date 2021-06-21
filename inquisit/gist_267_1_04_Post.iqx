@@ -513,7 +513,7 @@ NOTE: The 11 questions onwards are text to be displayed.
 	1507 = mask5;
 	1567 = blank;
 	1567 = fixation_cross; 
-	2567 = practice_cue_set
+	2267 = practice_cue_set
 ]
 / timeout = parameters.fixationduration + 267 + 100 + (5 * 60) 
 /branch = [surveypage.word_generation]
