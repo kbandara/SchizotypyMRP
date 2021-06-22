@@ -244,7 +244,7 @@ if a sequential order is preferred => /select = sequential
 
 <picture gdg_267soa>
 /items = picset_267_2_04
-/select = current(trial_cue_set)
+/select =  noreplacenorepeat
 /position = (50%, 50%)
 / width = 100
 / height = 100
@@ -254,7 +254,7 @@ if a sequential order is preferred => /select = sequential
 
 <picture practice_stimuli>
 /items = practice_pictures
-/select = current(practice_cue_set)
+/select = noreplacenorepeat 
 /position = (50%, 50%)
 / width = 100
 / height = 100
@@ -263,7 +263,7 @@ if a sequential order is preferred => /select = sequential
 
 <picture practice_cue_set>
 /items = practice_cues 
-/select = noreplacenorepeat
+/select = current(practice_stimuli)
 / position = (50%, 50%)
 / width = 100
 / height = 100
@@ -272,7 +272,7 @@ if a sequential order is preferred => /select = sequential
 
 <picture trial_cue_set>
 /items = trial_cues
-/select = noreplacenorepeat
+/select = current(gdg_267soa)
 / position = (50%, 50%)
 / width = 100
 / height = 100
